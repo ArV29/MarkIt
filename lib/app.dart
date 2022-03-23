@@ -13,27 +13,38 @@ class Homepage extends StatefulWidget{
 
 class HomePageState extends State<Homepage>{
 
-  Position employee = _determinePosition();
-  Position organization;
-
-  organization.longitude = 30.765616;
-  organization.latitude = 76.753638;
-
   Widget build(context) {
       return MaterialApp(
         home: Scaffold(
           body:
-          floatingActionButton: FloatingActionButton(
-            child: Icon(Icons.add),
-            // onPressed: () {
-            //   fetchImage();
-            // },
-            onPressed: compare(organization, employee), // its the short form for whats written above
-          ),
+          z
           appBar: AppBar(
-            title: Text('Lets see some Images'),
+            title: Text(),
           ),
         ),
       );
     }
 }
+
+Widget compareButton() {
+  Position employee = await _determinePosition();
+  Position organisation;
+  organisation.latitude=30.765616;
+  organisation.longitude=76.753638;
+    return ElevatedButton(
+      style: ElevatedButton.styleFrom(
+        primary: Colors.purple,
+        padding: EdgeInsets.all(15.0),
+        textStyle: TextStyle(
+          color: Colors.white10,
+          fontSize: 20.0,
+          fontWeight: FontWeight.bold,
+        ),
+      ),
+      onPressed: () {
+        print(compare(organisation, employee))
+      },
+      child: Text('Submit'),
+    );
+  }
+
