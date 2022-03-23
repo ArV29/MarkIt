@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mark_it/FrontEnd/Login.dart';
+import 'package:mark_it/FrontEnd/Homepage.dart';
+import 'package:mark_it/FrontEnd/LoginScreen.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,10 +14,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        home: LoginScreen());
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      initialRoute: LoginScreen.id,
+      routes: {
+        LoginScreen.id: (context) => LoginScreen(),
+        Homepage.id: (context) => Homepage(),
+      },
+    );
   }
 }

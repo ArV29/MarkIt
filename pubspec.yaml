@@ -11,6 +11,8 @@ dependencies:
   cloud_firestore: ^3.1.10
   firebase: ^9.0.2
   flutter_login: ^3.2.0
+  firebase_auth: ^3.3.11
+  fluttermoji: ^1.0.0
 
   flutter:
     sdk: flutter
