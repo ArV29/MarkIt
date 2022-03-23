@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "157152970347",
+    "project_id": "markit-d1046",
+    "storage_bucket": "markit-d1046.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157152970347:android:fd2c956a23a9bcea8bd32e",
+        "android_client_info": {
+          "package_name": "com.saahas.mark_it"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157152970347-8a2hlbmr5a36blic6lmv74h4d9ehb1e9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saahas.mark_it",
+            "certificate_hash": "4eefccd1055e6684e586a1c091d831cc0fdcce0a"
+          }
+        },
+        {
+          "client_id": "157152970347-pbuc2og5eeeilkeo3v05kcu9fu81f8ps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC1Dtq9kDlxuNHHceT2eLVrUUeacYM-YY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157152970347-pbuc2og5eeeilkeo3v05kcu9fu81f8ps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
