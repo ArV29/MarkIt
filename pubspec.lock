@@ -129,6 +129,7 @@ packages:
     source: sdk
     version: "0.0.0"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   geolocator:
     dependency: "direct main"
     description:
@@ -179,6 +180,8 @@ packages:
     source: hosted
     version: "1.0.1"
 =======
+=======
+>>>>>>> Stashed changes
   http:
     dependency: transitive
     description:
@@ -193,6 +196,9 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.0.0"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   js:
     dependency: transitive
@@ -307,7 +313,11 @@ packages:
 sdks:
   dart: ">=2.16.1 <3.0.0"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   flutter: ">=2.8.0"
+=======
+  flutter: ">=1.12.13+hotfix.5"
+>>>>>>> Stashed changes
 =======
   flutter: ">=1.12.13+hotfix.5"
 >>>>>>> Stashed changes
